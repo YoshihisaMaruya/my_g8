@@ -1,3 +1,5 @@
+import AssemblyKeys._ //一番最初の行に書く
+
 name := "scripts"
 
 organization := "scripts"
@@ -9,8 +11,6 @@ scalaVersion := "2.10.0"
 resolvers += "typesafe" at "http://repo.typesafe.com/typesafe/snapshots"
 
 libraryDependencies ++= Seq(
-//	"javax.mail" % "mail" % "1.4"
 )
 
-
-//initialCommands := "import com.qualcomm.postgrestest._"
+assemblySettings
